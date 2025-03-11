@@ -10,7 +10,7 @@ computer = random.choice([-1, 0, 1])
 youDict = {"s": 1, "w": -1, "g": 0}
 reversedDict = {1: "Snake", -1: "Water", 0: "Gun"}
 
-youstr = input("Enter Your Choice (s for Snake, w for Water, g for Gun): ").lower()
+youstr = input("Enter Your Choice (s for Snake🐍, w for Water💧, g for Gun🔫): ").lower()
 
 
 if youstr not in youDict:
