@@ -1,6 +1,6 @@
 import random
 import tkinter as tk
-from tkinter import messagebox
+# from tkinter import messagebox
 
 
 def play_game(user_choice):
@@ -22,10 +22,10 @@ def play_game(user_choice):
 
     result_label.config(text=f"You Chose: {user_choice}\nComputer Chose: {reversed_choices[computer_choice]}\n{result}")
 
-
+# FRONTEND (DESIGN PART)
 root = tk.Tk()
 root.title("Snake-Water-Gun Game 🐍💧🔫")
-root.geometry("400x500")
+root.geometry("400x500") # IS FOR SCREEN SIZE
 root.configure(bg="#f7e6a1")
 
 
